@@ -1,29 +1,40 @@
-.login-container {
-  width: 360px;
-  margin: 100px auto;
-  padding: 30px;
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-  text-align: center;
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4caf50, #81c784);
 }
 
-.login-container h2 {
+.login-card {
+  width: 350px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.login-card h2 {
   color: #2e7d32;
   margin-bottom: 5px;
 }
 
-.login-container p {
-  color: #555;
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
 }
 
-.login-container input {
+.login-card input {
   width: 100%;
   padding: 10px;
-  margin: 10px 0;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
 }
 
-.login-container button {
+.login-btn {
   width: 100%;
   padding: 10px;
   background: #2e7d32;
@@ -33,11 +44,26 @@
   cursor: pointer;
 }
 
-.google-btn {
-  background: #db4437;
+.login-btn:hover {
+  background: #256b28;
 }
 
 .divider {
   margin: 15px 0;
   font-weight: bold;
+  color: #777;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 10px;
+  background: #db4437;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  background: #c23321;
 }
