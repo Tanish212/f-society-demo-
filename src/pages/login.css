@@ -1,0 +1,43 @@
+.login-container {
+  width: 360px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #2e7d32;
+  margin-bottom: 5px;
+}
+
+.login-container p {
+  color: #555;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google-btn {
+  background: #db4437;
+}
+
+.divider {
+  margin: 15px 0;
+  font-weight: bold;
+}
