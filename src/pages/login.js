@@ -17,7 +17,7 @@ const Login = () => {
   return (
     <div className="login-wrapper">
       <div className="login-card">
-        <h2>🌱 Crop Disease Prediction</h2>
+        <h2>Crop Disease Prediction</h2>
         <p className="subtitle">Login to continue</p>
 
         <form onSubmit={handleLogin}>
